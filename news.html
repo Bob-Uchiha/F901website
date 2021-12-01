@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="newsstyle.css">
+<div class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="news.html" class="active">News</a>
+  <a href="games.html">Games?</a>
+  <a href="about.html">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<script>/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</head>
+<body>
+<div class="header">
+	<h2> News and Stuff </h2>
+</div>
+
+<div class="row">
+	<div class="card">
+	<h3>First Post</h3>
+	<img src="f901.jpg" alt="cheese"><br>
+	<p> Welcome to the first F901 post. The website has just been made and contains literally nothing. Have fun!</p>
+</div>
+</div>
+
+</body>
+</html>
